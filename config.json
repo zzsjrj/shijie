@@ -1,0 +1,14 @@
+{
+  "com.zzsjrjkj.cjdqwjxcg.vivo": {
+    "vivo": {
+      "mediaflag": 0
+    },
+    "oppo": {
+      "mediaflag": 1
+    }
+  },
+
+  "default": {
+    "mediaflag": 0
+  }
+}
