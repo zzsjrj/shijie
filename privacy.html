@@ -12,10 +12,11 @@
 <body>
 <div class="wrap">
 <h1>隐私政策</h1>
-<div class="meta">更新日期：2026年9月8日  生效日期：2026年9月8日</div>
+<div class="meta">更新日期：2026年9月10日  生效日期：2026年9月10日</div>
 <p>郑州拾界软件科技有限公司（以下简称“我们”）非常重视您的个人信息和隐私保护。本隐私政策适用于我们运营的相关移动应用及其相关服务，用于向您说明我们在您使用产品过程中如何收集、使用、存储、共享、保护和管理您的个人信息，以及您依法享有的相关权利。</p>
 <p>请您在使用我们的产品或服务前仔细阅读并充分理解本政策。您开始使用或继续使用相关服务，即表示您已阅读、理解并同意本政策所述内容。对于本政策中与您的合法权益密切相关的重要内容，我们会通过适当方式向您进行提示。</p>
-<div class="box"><strong>重要提示：</strong>我们遵循合法、正当、必要和诚信原则处理个人信息。我们仅在实现产品功能、提供服务、保障应用安全以及履行法律义务所必要的范围内处理相关信息。对于非必要信息和非必要权限，我们不会以捆绑方式强制要求您提供。</div>
+<div class="box"><strong>重要提示：</strong>我们遵循合法、正当、必要和诚信原则处理个人信息。我们仅在实现产品功能、提供服务、保障应用安全以及履行法律义务所必要的范围内处理相关信息。对于非必要信息和非必要权限，我们不会以捆绑方式强制要求您提供。<br/>
+所有第三方SDK仅在您同意本隐私政策之后才会初始化并开始收集个人信息；用户拒绝同意隐私政策时，不会加载任何第三方SDK，不会读取任何设备标识、MAC地址、应用安装列表等个人信息。</div>
 <h2>一、我们收集和使用哪些个人信息</h2>
 <h3>1. 设备及运行信息</h3>
 <p>为保证应用正常运行、进行设备兼容性适配、排查崩溃和异常、保障服务安全以及改善产品体验，我们可能收集或使用以下信息：</p>
@@ -30,19 +31,19 @@
 </ul>
 <p>上述信息主要用于应用正常运行、设备适配、故障诊断、风险控制、防止作弊以及统计分析。</p>
 <h3>2. OAID及设备标识</h3>
-<p>为适配Android设备并支持广告、归因、防作弊、设备识别等相关功能，在您授权并符合法律法规要求的情况下，应用可能通过相关设备标识服务获取OAID、AAID、VAID等设备标识信息。</p>
+<p>为适配Android设备并支持广告、归因、防作弊、设备识别等相关功能，在您授权并符合法律法规要求的情况下，应用通过MSA统一调用SDK获取OAID、AAID、VAID等设备标识信息。<strong>收集方式：用户同意隐私政策后，SDK自动从系统接口读取OAID；获取OAID仅用于广告归因、反作弊、设备识别，不会用作唯一永久设备标识。</strong></p>
 <p>不同厂商设备可能采用不同的设备标识机制。我们不会将设备标识用于本隐私政策所述目的之外的用途，并会根据相关服务的实际需要进行处理。</p>
 <h3>3. 网络信息</h3>
-<p>在提供在线服务、广告、内容加载和安全防护时，我们可能处理IP地址、设备MAC地址、网络类型、网络状态等信息，用于建立网络连接、判断服务可用性、保障网络安全、统计服务运行情况及识别异常访问。</p>
+<p>在提供在线服务、广告、内容加载和安全防护时，我们可能处理IP地址、设备MAC地址、网络类型、网络状态等信息。<strong>收集方式：用户同意隐私政策后，第三方广告SDK自动获取；收集目的：建立网络连接、广告反作弊、识别异常访问、保障网络安全、统计广告服务运行情况。</strong></p>
 <h3>4. 日志及崩溃信息</h3>
 <p>当应用发生崩溃、卡顿、异常或其他运行问题时，我们可能收集必要的日志、错误信息、设备环境和应用运行状态，以便定位问题、修复故障和提高应用稳定性。</p>
 <h3>5. 广告服务</h3>
-<p>如应用提供广告服务，我们可能接入第三方广告及相关服务。为了展示广告、统计广告展示和点击效果、进行广告归因、防止作弊及识别异常流量，相关第三方可能处理设备信息、OAID等设备标识、MAC地址、IP地址、网络信息、应用列表及广告互动信息。</p>
+<p>如应用提供广告服务，我们可能接入第三方广告及相关服务。为了展示广告、统计广告展示和点击效果、进行广告归因、防止作弊及识别异常流量，相关第三方可能处理设备信息、OAID等设备标识、MAC地址、IP地址、网络信息、<strong>应用安装列表（收集方式：用户同意隐私政策后SDK自动读取；目的：识别风险作弊设备、过滤恶意广告流量）</strong>、应用列表及广告互动信息。</p>
 <p>广告服务商会根据其自身隐私政策及相关法律法规处理信息。您可以根据应用及设备提供的设置管理相关权限或广告个性化选项。您也可以在设备系统设置‑广告与隐私中关闭广告个性化；关闭后不会减少广告数量，但广告将不再基于您的信息进行定向推送。</p>
 <h3>6. 客服及反馈</h3>
 <p>当您主动向我们进行咨询、建议或问题反馈时，我们可能处理您主动提供的联系方式、问题描述、截图、日志及必要的设备信息，以便核实和解决问题。</p>
 <h2>二、第三方SDK及相关服务明细</h2>
-<p>为了实现广告、设备标识、数据统计、实名认证、支付或其他必要功能，应用可能使用第三方SDK。<strong>我们在您点击同意隐私政策并进入应用后，方会正式加载和调用相关第三方SDK。</strong>第三方SDK仅在提供相应服务所需范围内，通过SDK接口、系统接口或用户主动提交等方式处理本政策及下表所列相关信息。第三方SDK的具体调用以当前应用版本实际集成和使用的SDK功能为准。
+<p>为了实现广告、设备标识、数据统计、实名认证、支付或其他必要功能，应用可能使用第三方SDK。<strong>我们在您点击同意隐私政策并进入应用后，方会正式加载和调用相关第三方SDK。用户拒绝隐私政策时，所有第三方SDK不会初始化，不会读取任何个人信息。</strong>第三方SDK仅在提供相应服务所需范围内，通过SDK接口、系统接口或用户主动提交等方式处理本政策及下表所列相关信息。第三方SDK的具体调用以当前应用版本实际集成和使用的SDK功能为准。
 <br/>备注：部分SDK文档提及可获取地理位置信息，本应用不会主动申请定位权限；仅当您在系统层面已授予定位权限，第三方SDK才有可能读取粗略位置。</p>
 <div class="table-wrap"><table>
 <thead>
@@ -50,185 +51,187 @@
         <th>SDK名称</th>
         <th>服务类型/目的</th>
         <th>收集个人信息类型</th>
+        <th>收集方式</th>
         <th>主体公司</th>
         <th>隐私政策链接</th>
     </tr>
 </thead>
 <tbody>
     <tr>
-        <td>腾讯广告SDK</td>
-        <td>广告投放、归因、反作弊、安全</td>
-        <td>FA、应用的包名、版本号、进程名称、运行状态、可疑行为、<strong>设备MAC地址、应用安装列表</strong>、产品交互数据、广告数据、崩溃数据、性能数据</td>
+        <td>腾讯营销联盟SDK</td>
+        <td>广告投放、归因、反作弊、安全风控</td>
+        <td>设备信息、应用包名、版本号、进程名称、运行状态、可疑行为、设备MAC地址、应用安装列表、产品交互数据、广告数据、崩溃数据、性能数据</td>
+        <td>用户同意隐私政策后SDK自动采集</td>
         <td>深圳市腾讯计算机系统有限公司</td>
         <td><a href="https://e.qq.com/dev/help_detail.html?cid=2005&pid=5983" target="_blank">链接</a></td>
     </tr>
     <tr>
-        <td>sigmob广告SDK</td>
-        <td>提供相关广告服务</td>
-        <td>设备标识符IMEI、GAID、OAID；设备品牌、型号；IP、UA、<strong>MAC地址</strong>、Android ID、分辨率、存储空间、运营商、网络状态、传感器、地理位置、<strong>应用安装列表</strong></td>
+        <td>Sigmob广告SDK</td>
+        <td>提供广告服务、广告归因、反作弊</td>
+        <td>设备标识符IMEI、GAID、OAID；设备品牌、型号；IP、UA、MAC地址、Android ID、分辨率、存储空间、运营商、网络状态、传感器、地理位置、应用安装列表</td>
+        <td>用户同意隐私政策后SDK自动采集</td>
         <td>北京创智汇聚科技有限公司</td>
         <td><a href="https://www.sigmob.com/policy.html" target="_blank">链接</a></td>
     </tr>
     <tr>
-        <td>topon广告SDK</td>
-        <td>广告投放策略调整、数据分析、反作弊</td>
-        <td>系统版本、<strong>应用安装列表</strong>、设备生产商、型号、网络类型、Android ID、IMEI、OAID、<strong>MAC地址</strong>、GAID、IDFA等</td>
+        <td>Taku广告SDK</td>
+        <td>广告投放策略调整、数据分析、反作弊风控</td>
+        <td>系统版本、应用安装列表、设备生产商、型号、网络类型、Android ID、IMEI、OAID、MAC地址、GAID、IDFA等</td>
+        <td>用户同意隐私政策后SDK自动采集</td>
         <td>广州塔酷信息科技有限公司</td>
-        <td><a href="https://newdocs.toponad.com/docs/1Mn1B7" target="_blank">链接</a></td>
+        <td><a href="https://help.takuad.com/docs/1Mn1B7" target="_blank">链接</a></td>
     </tr>
     <tr>
-        <td>魔度广告SDK</td>
-        <td>提供相关广告服务</td>
-        <td>硬件型号、系统版本号、IMEI、唯一设备标识符、<strong>MAC地址</strong>、IP地址、WLAN接入点、服务日志、<strong>应用安装列表</strong></td>
-        <td>南京魔度互娱信息技术有限公司</td>
-        <td><a href="https://www.modooplay.com/privacy" target="_blank">链接</a></td>
-    </tr>
-    <tr>
-        <td>(Mintegral)汇量广告SDK</td>
-        <td>提供相关广告服务</td>
-        <td>IP地址、IMEI、安卓ID、OAID、IDFV、IDFA、<strong>MAC地址</strong>、设备生产商及型号、OS信息、传感器、<strong>应用安装列表</strong>等</td>
-        <td>广州汇量网络科技股份有限公司</td>
+        <td>Mintegral SDK</td>
+        <td>广告服务、广告归因、反作弊风控</td>
+        <td>IP地址、IMEI、安卓ID、OAID、IDFV、IDFA、MAC地址、设备生产商及型号、OS信息、传感器信息、应用安装列表等</td>
+        <td>用户同意隐私政策后SDK自动采集</td>
+        <td>广州汇世信息科技股份有限公司</td>
         <td><a href="https://www.mintegral.com/cn/privacy/" target="_blank">链接</a></td>
     </tr>
     <tr>
-        <td>快手联盟SDK/快手广告SDK</td>
-        <td>广告投放、归因、反作弊、安全</td>
-        <td>基础设备信息、设备标识(IMEI、OAID、AndroidId等)、位置信息(IP、<strong>MAC地址</strong>、GPS)、<strong>应用安装列表</strong>等</td>
+        <td>快手联盟SDK</td>
+        <td>广告投放、归因、反作弊、安全风控</td>
+        <td>基础设备信息、设备标识(IMEI、OAID、AndroidId等)、位置信息(IP、MAC地址、GPS)、应用安装列表等</td>
+        <td>用户同意隐私政策后SDK自动采集</td>
         <td>北京快手广告有限公司</td>
         <td><a href="https://u.kuaishou.com/home/detail/1290" target="_blank">链接</a></td>
     </tr>
     <tr>
-        <td>巨量引擎转化SDK</td>
-        <td>提供数据统计和分析服务</td>
-        <td>设备信息(品牌、型号、OS版本、oaid、磁盘空间等)、应用信息(包名、版本号)、运营商、<strong>MAC地址</strong>、IMEI、<strong>应用安装列表</strong>等</td>
+        <td>巨量引擎转化跟踪SDK</td>
+        <td>数据统计、广告归因分析、反作弊</td>
+        <td>设备信息(品牌、型号、OS版本、oaid、磁盘空间等)、应用信息(包名、版本号)、运营商、MAC地址、IMEI、应用安装列表等</td>
+        <td>用户同意隐私政策后SDK自动采集</td>
         <td>北京巨量引擎网络技术有限公司</td>
         <td><a href="https://open.oceanengine.com/labels/8/docs/1708428054592516?origin=left_nav" target="_blank">链接</a></td>
     </tr>
     <tr>
-        <td>友盟+移动统计SDK</td>
-        <td>提供数据统计和分析服务</td>
-        <td>IMEI、<strong>MAC地址</strong>、Android ID、IDFA、OpenUDID、GUID、IMSI、ICCID、IP、粗略位置、<strong>应用安装列表</strong></td>
-        <td>友盟同欣、北京锐讯灵通</td>
+        <td>穿山甲广告SDK</td>
+        <td>广告投放、广告变现、监测归因、反作弊风控</td>
+        <td>设备品牌、型号、系统版本、OAID、Android ID、MAC地址、应用包名、版本、应用安装列表、网络信息、广告交互、崩溃性能数据</td>
+        <td>用户同意隐私政策后SDK自动采集</td>
+        <td>北京巨量引擎网络技术有限公司</td>
+        <td><a href="https://www.csjplatform.com/privacy/partner" target="_blank">链接</a></td>
+    </tr>
+    <tr>
+        <td>友盟+ SDK</td>
+        <td>数据统计和分析服务、异常监测</td>
+        <td>IMEI、MAC地址、Android ID、IDFA、OpenUDID、GUID、IMSI、ICCID、IP、粗略位置、应用安装列表</td>
+        <td>用户同意隐私政策后SDK自动采集</td>
+        <td>友盟同欣（北京）科技有限公司、北京锐讯灵通科技有限公司</td>
         <td><a href="https://www.umeng.com/page/policy" target="_blank">链接</a></td>
     </tr>
     <tr>
-        <td>摸摸鱼sdk</td>
-        <td>游戏服务安全运行、崩溃统计、实名认证、广告</td>
-        <td>设备标识符(IMEI、Android ID、OAID等)、<strong>MAC地址</strong>、粗略位置、<strong>真实姓名、身份证号</strong>、<strong>应用安装列表</strong></td>
-        <td>海南游来游趣科技有限公司</td>
-        <td><a href="https://api.momoyu.com/magic/eco/runtime/release/621c6d288e857c0366968d18?appType=momoyu" target="_blank">链接</a></td>
-    </tr>
-    <tr>
-        <td>华为广告(鲸鸿动能SDK)</td>
-        <td>程序化广告投放、防欺诈</td>
-        <td>设备信息(OAID、IMEI、Android ID等)、网络信息、位置信息、<strong>设备MAC地址、应用安装列表</strong>、广告交互行为</td>
+        <td>鲸鸿动能广告SDK</td>
+        <td>程序化广告投放、防欺诈风控</td>
+        <td>设备信息(OAID、IMEI、Android ID等)、网络信息、位置信息、设备MAC地址、应用安装列表、广告交互行为</td>
+        <td>用户同意隐私政策后SDK自动采集</td>
         <td>华为软件技术有限公司</td>
         <td><a href="https://privacy.consumer.huawei.com/legal/ads/privacy-statement.htm?&code=CN&language=zh-CN&branchid=0&contenttag=default" target="_blank">链接</a></td>
     </tr>
     <tr>
-        <td>OPPO联盟广告SDK</td>
-        <td>提供相关广告服务</td>
-        <td>IP、<strong>已安装应用列表</strong>、软件版本签名包名、设备属性、<strong>MAC地址</strong>、Wi‑Fi信息、IMEI、传感器等</td>
-        <td>OPPO广东移动通信有限公司</td>
+        <td>OPPO广告联盟SDK</td>
+        <td>广告服务、广告归因、反作弊风控</td>
+        <td>IP、已安装应用列表、软件版本签名包名、设备属性、MAC地址、Wi‑Fi信息、IMEI、传感器等</td>
+        <td>用户同意隐私政策后SDK自动采集</td>
+        <td>广东欢太科技有限公司</td>
         <td><a href="https://u.oppomobile.com/main/privacy.html" target="_blank">链接</a></td>
     </tr>
 <tr>
     <td>vivo广告联盟SDK</td>
     <td>广告投放、归因、监测、反作弊、广告交互识别</td>
-    <td>设备IP地址、<strong>设备MAC地址</strong>、设备信息、网络信息、设备标识符（如OAID、Android ID等）、应用信息、<strong>已安装应用列表</strong>、传感器列表、崩溃及性能相关</td>
+    <td>设备IP地址、设备MAC地址、设备信息、网络信息、设备标识符（如OAID、Android ID等）、应用信息、已安装应用列表、传感器列表、崩溃及性能相关</td>
+    <td>用户同意隐私政策后SDK自动采集</td>
     <td>广东天宸网络科技有限公司</td>
     <td><a href="https://adnet.vivo.com.cn/home/faq/18" target="_blank">链接</a></td>
 </tr>
 <tr>
     <td>vivo联运SDK</td>
     <td>vivo渠道账号登录、实名认证、游戏支付、防沉迷服务</td>
-    <td>OpenID、设备信息、OAID、VAID、AAID、网络信息、应用包名、版本号、订单信息、<strong>设备MAC地址、应用安装列表</strong>；<strong>实名认证时，由用户主动提交姓名、身份证件号码，仅用于实名核验与防沉迷</strong></td>
+    <td>OpenID、设备信息、OAID、VAID、AAID、网络信息、应用包名、版本号、订单信息、设备MAC地址、应用安装列表；实名认证时，由用户主动提交姓名、身份证件号码，仅用于实名核验与防沉迷</td>
+    <td>用户同意隐私政策后SDK自动采集；实名信息由用户主动提交</td>
     <td>广东天宸网络科技有限公司</td>
     <td><a href="https://dev.vivo.com.cn/documentCenter/doc/712" target="_blank">链接</a></td>
 </tr>
     <tr>
-        <td>米盟广告</td>
-        <td>广告投放及归因、反作弊</td>
-        <td>设备标识符(IMEI、OAID、Android ID、<strong>MAC地址</strong>等)、基础信息、WiFi状态、应用包名、版本号、进程列表、<strong>应用安装列表</strong></td>
+        <td>米盟广告SDK</td>
+        <td>广告投放及归因、反作弊风控</td>
+        <td>设备标识符(IMEI、OAID、Android ID、MAC地址等)、基础信息、WiFi状态、应用包名、版本号、进程列表、应用安装列表</td>
+        <td>用户同意隐私政策后SDK自动采集</td>
         <td>深圳小米信息技术有限公司</td>
         <td><a href="https://dev.mi.com/console/doc/detail?pId=2630" target="_blank">链接</a></td>
     </tr>
     <tr>
-        <td>oaid sdk(MSA移动联盟sdk)</td>
-        <td>生成OAID、AAID、VAID设备标识</td>
-        <td>设备制造商、型号、品牌、运营商、App包名及签名信息、<strong>OAID/AAID/VAID设备标识</strong></td>
-        <td>移动安全工作委员会</td>
+        <td>移动安全联盟 SDK（MSA）</td>
+        <td>读取OAID/AAID/VAID匿名设备标识，供广告SDK完成广告归因、设备反作弊识别</td>
+        <td>设备制造商、型号、品牌、运营商、App包名及签名信息、OAID/AAID/VAID设备标识</td>
+        <td>用户同意隐私政策后，SDK调用系统接口自动读取OAID等标识</td>
+        <td>中国信息通信研究院（移动安全工作委员会）</td>
         <td><a href="http://www.msa-alliance.cn/col.jsp?id=122" target="_blank">链接</a></td>
     </tr>
     <tr>
-        <td>233乐园广告SDK</td>
-        <td>广告展示、监测及优化</td>
-        <td>设备IMEI、IMSI、Android ID、<strong>MAC地址</strong>、<strong>安装列表</strong>、系统版本等</td>
-        <td>北京龙威互动科技有限公司</td>
-        <td><a href="https://doc.233leyuan.com/protocol/233%E4%B9%90%E5%9B%AD%E5%B9%BF%E5%91%8ASDK%E9%9A%90%E7%A7%81%E6%94%BF%E7%AD%96.html" target="_blank">链接</a></td>
-    </tr>
-    <tr>
         <td>App 支付宝客户端 SDK</td>
-        <td>保障用户账户资金及支付安全</td>
-        <td>IMEI、IMSI、<strong>MAC地址</strong>、序列号、Android ID、OAID、Wi‑Fi列表、<strong>应用安装列表</strong>等</td>
+        <td>保障用户账户资金及支付安全，支付风控核验</td>
+        <td>IMEI、IMSI、MAC地址、序列号、Android ID、OAID、Wi‑Fi列表、应用安装列表等</td>
+        <td>用户同意隐私政策后SDK自动采集；发起支付场景使用</td>
         <td>支付宝（中国）网络技术有限公司</td>
         <td><a href="https://opendocs.alipay.com/open/54/01g6qm" target="_blank">链接</a></td>
     </tr>
     <tr>
-        <td>微信OpenSDK Android</td>
-        <td>显示微信用户头像、昵称</td>
+        <td>微信Open SDK</td>
+        <td>显示微信用户头像、昵称，微信分享登录</td>
         <td>微信头像、昵称信息、订单标识</td>
+        <td>用户主动触发微信登录/分享时获取</td>
         <td>深圳市腾讯计算机系统有限公司</td>
         <td><a href="https://support.weixin.qq.com/cgi-bin/mmsupportacctnodeweb-bin/pages/RYiYJkLOrQwu0nb8" target="_blank">链接</a></td>
     </tr>
     <tr>
         <td>荣耀游戏联运SDK</td>
         <td>账号登录、实名认证与支付服务</td>
-        <td>OpenID、设备信息、应用信息、<strong>姓名、身份证号码、应用安装列表</strong></td>
+        <td>OpenID、设备信息、应用信息、姓名、身份证号码、应用安装列表</td>
+        <td>用户同意隐私政策后SDK自动采集；实名信息用户主动提交</td>
         <td>深圳荣耀软件技术有限公司</td>
         <td><a href="https://developer.honor.com/cn/docs/game_center/guides/jieruzhinan/sdkyinsi" target="_blank">链接</a></td>
     </tr>
     <tr>
         <td>荣耀广告SDK</td>
-        <td>广告投放、监测归因与防欺诈</td>
-        <td>设备信息、网络信息、应用信息、用户互动信息、<strong>设备MAC地址、应用安装列表</strong>等</td>
+        <td>广告投放、监测归因与防欺诈风控</td>
+        <td>设备信息、网络信息、应用信息、用户互动信息、设备MAC地址、应用安装列表等</td>
+        <td>用户同意隐私政策后SDK自动采集</td>
         <td>深圳荣耀软件技术有限公司</td>
         <td><a href="https://developer.hihonor.com/cn/kitdoc?category=Monetization&kitId=20030&navigation=guides&docId=sdk-privacy-statement.md&token=" target="_blank">链接</a></td>
     </tr>
     <tr>
         <td>Unity引擎SDK</td>
-        <td>服务提供、业务报告与安全性</td>
-        <td>设备信息、IP地址、AndroidID、<strong>设备MAC地址</strong>、日志、Cookie等</td>
+        <td>游戏渲染运行、业务报告与安全性风控</td>
+        <td>设备信息、IP地址、AndroidID、设备MAC地址、日志、Cookie等</td>
+        <td>用户同意隐私政策后SDK自动采集</td>
         <td>Unity Technologies</td>
         <td><a href="https://unity.com/cn/legal/game-player-and-app-user-privacy-policy" target="_blank">链接</a></td>
     </tr>
     <tr>
         <td>Cocos引擎SDK</td>
-        <td>分析服务、产品开发和优化</td>
-        <td>设备型号、系统版本、IP、<strong>MAC地址</strong>、设备识别码、IMEI、应用标识符、传感器、<strong>应用安装列表</strong>等</td>
+        <td>分析服务、产品开发和优化、故障排查</td>
+        <td>设备型号、系统版本、IP、MAC地址、设备识别码、IMEI、应用标识符、传感器、应用安装列表等</td>
+        <td>用户同意隐私政策后SDK自动采集</td>
         <td>厦门雅基软件有限公司</td>
         <td><a href="https://download.cocos.com/CocosUdc/agreement/Cocos_Privacy_Policy_cn_20200904.html" target="_blank">链接</a></td>
     </tr>
     <tr>
-        <td>欢太账号授权SDK</td>
-        <td>账号授权登录</td>
-        <td><strong>应用安装列表</strong>、签名、版本信息、WIFI名称、OpenID、IMEI、运营商、<strong>MAC地址</strong></td>
-        <td>OPPO广东移动通信有限公司</td>
+        <td>欢太账号OAuth授权SDK</td>
+        <td>账号授权登录、账号安全校验</td>
+        <td>应用安装列表、签名、版本信息、WIFI名称、OpenID、IMEI、运营商、MAC地址</td>
+        <td>用户同意隐私政策后SDK自动采集，用户触发登录时调用</td>
+        <td>广东欢太科技有限公司</td>
         <td><a href="https://muc.heytap.com/agreement/privacy-policy/account/auth-sdk/mainland/main/index.html?language=zh‑CN" target="_blank">链接</a></td>
     </tr>
     <tr>
-        <td>OPPO PUSH 客户端SDK</td>
-        <td>支持推送消息</td>
+        <td>OPPO PUSH SDK</td>
+        <td>支持推送消息、推送通道管理</td>
         <td>RegisterId、appKey、MCS应用包名、应用版本号、推送SDK版本号等</td>
-        <td>OPPO广东移动通信有限公司</td>
+        <td>用户同意隐私政策后SDK自动采集</td>
+        <td>广东欢太科技有限公司</td>
         <td><a href="https://open.oppomobile.com/new/developmentDoc/info?id=11228" target="_blank">链接</a></td>
-    </tr>
-    <tr>
-        <td>Taku Android SDK</td>
-        <td>广告投放策略调整及数据分析</td>
-        <td>系统版本、<strong>应用安装列表</strong>、设备型号、网络类型、IMEI、OAID、<strong>MAC地址</strong>、传感器等</td>
-        <td>广州塔酷信息科技有限公司</td>
-        <td><a href="https://help.takuad.com/docs/1Mn1B7" target="_blank">链接</a></td>
     </tr>
 </tbody>
 </table></div>
@@ -286,7 +289,7 @@
 <p>您可以通过设备权限设置管理系统权限。如需行使其他个人信息权利，可以通过本政策末尾的联系方式联系我们。您向我们行使上述权利时，我们将对您的身份进行核验；在核验身份通过后，我们将在<strong>15个工作日内进行答复与处理</strong>。</p>
 <p>提示：如您使用vivo账号登录本游戏，vivo账号本身注销请前往vivo手机系统设置内操作，我方仅处理游戏业务相关保存的数据。</p>
 <h2>九、撤回授权及权限管理</h2>
-<p>nYou可以通过手机系统设置关闭已经授予应用的相关权限，也可以通过应用提供的设置功能管理部分授权。撤回授权不会影响此前基于您授权已经进行的信息处理，但在撤回后我们将不再继续处理相应信息，法律法规另有规定或处理仍具有合法基础的除外。</p>
+<p>您可以通过手机系统设置关闭已经授予应用的相关权限，也可以通过应用提供的设置功能管理部分授权。撤回授权不会影响此前基于您授权已经进行的信息处理，但在撤回后我们将不再继续处理相应信息，法律法规另有规定或处理仍具有合法基础的除外。</p>
 <h2>十、未成年人个人信息保护</h2>
 <p>我们高度重视未成年人个人信息保护。如果您属于未成年人，请在监护人的陪同、指导和同意下使用我们的服务。</p>
 <p>我们不会在明知的情况下，以不合理方式收集儿童的个人信息。如法律法规要求采取未成年人保护措施，我们会按照相关规定执行，并在必要时采取年龄识别、时间管理、消费限制等相应措施。如您认为我们可能误收集了未成年人个人信息，请通过本政策所列联系方式与我们联系，我们会按照适用法律法规进行处理。</p>
